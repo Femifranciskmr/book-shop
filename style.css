@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+   background-color: beige;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header i{
+    margin-left: -400px;
+    margin-top: 30px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: -300px;
+}
+
+.header li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 30px;
+
+} 
+.header a{
+    text-decoration: none;
+    color: green;
+}
+.header a:hover{
+    color: brown;
+    font-size: 17px;
+    /* box-shadow: 2px salmon; */
+
+}
+
+.rowhead{
+height:300px;
+}
+
+
+
+
+/* .haederpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.haederpara h1{
+    text-align: center;
+}
+.haederpara p{
+    text-align: center;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.paragra span{
+    margin-left: 41%;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    padding: 8px;
+   transform: 0.4s;
+}
+.paragra span:hover{
+    background-color: blue;
+   
+}
+
+.paragra a{
+    color: brown;
+    text-decoration: none;
+}
+ */
+
+
+
+
+
+
+/* footer section */
+.contact{
+    position: relative;
+    min-height: 50vh;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: bisque;
+
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.containerfoot{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.containerfoot .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.containerfoot .contactinfo .box{
+    position: relative;
+    padding: 10px 0px;
+    display: flex;
+}
+.containerfoot .contactinfo .box .icon{
+    min-width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.containerfoot .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+    flex-direction: column;
+    font-weight: 300;
+}
+.containerfoot .contactinfo .box .text h3{
+    font-weight: 400;
+    color: #00bcd4;
+}
+
+.contactform{
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.contactform .inputbox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize:none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 14px;
+    transform: translatey(-22px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width:500px){
+    
+    .review{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     }
+     .containerfoot{
+        display: flex;
+      flex-direction: column;
+     }
+
+     .contactform{
+        width: 300px;
+        padding: 10px;
+        background: #fff;
+    }
+    .containerfoot .contactinfo{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* most recommended section */
+     .bestbookhead{
+        padding-top: 40px;
+     }
+     .card{
+        margin: 10px;
+     }
+     .header ul{
+        display: block;
+        
+        margin-right: -100px;
+    }
+    .header li{
+        margin-top: 2px;
+    }
+     
+ }
+
+
+
+
+
